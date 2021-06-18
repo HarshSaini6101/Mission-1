@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="style.css" />
-    <link href="link rel="preconnect" href="https://fonts.gstatic.com"/>
-    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <title>My first Project</title>
 </head>
 <body>
@@ -29,15 +29,65 @@
     <section class="hero__container">
     <div class="hero__image__container">
         <img src="assets/hero.jpg" alt="hero image" class="hero__image"/>
+        <img src="assets/heroShape.svg" alt="hero__shape" class="hero__image__shape"/>
+        <img src="assets/herobgpattren.svg" alt="hero image shape" class="hero__image__pattern"/>
     </div>
     <div class="hero__description">
         <h1 class="hero__text">
+            <strong>
                 Order food from favourite restaurants near you.
-        </h1>
+            </strong>
+            </h1>
         <button class="button__primary">
             Order food
         </button>
     </div>
+    </section>
+    <section class="below__container__text">
+        <div class="below__text">
+            <p>
+              Your food will be prepared safely with an experienced chef, without
+              compromising on the quality and hygiene.
+            </p>
+          </div>
+    </section>
+    <!--explore menu section-->
+    <section class="explore__menu__container">
+        <h1 class="explore__menu__container__text">Explore Our Menu</h1>
+        <div class="explore__menu__bg"></div>
+        <div class="explore__menu__lists">
+        <div class="food__menu__card">
+            <img src="assets/burger.jpg" alt="burger" class="food__image"/>
+            <div class="food__menu__card__description">
+                <h3 class="food__title">Burger</h3>
+                <p class="food__resturents">Burger king,Mcdonald,Burger Place
+                    <span style="color: red;">+3</span>
+                </p>
+            </div>
+        </div>
+        <div class="food__menu__card" id="pizza__card">
+            <img src="assets/pizza.jpg" alt="pizza" class="food__image"/>
+            <div class="food__menu__card__description">
+                <h3 class="food__title">Pizza</h3>
+                <p class="food__resturents">Pizza Planet, Pizza Hub, Dominos Pizza
+                    <span style="color: red;">+3</span>
+                </p>
+            </div>
+        </div>
+        <div class="food__menu__card">
+            <img src="assets/iceCream.jpg" alt="iceCream" class="food__image"/>
+            <div class="food__menu__card__description">
+                <h3 class="food__title">IceCream</h3>
+                <p class="food__resturents">Baskin Robins, Aser
+                    <span style="color: red;">+3</span>
+                </p>
+            </div>
+            </div>
+        </div>
+        <div class="explore__menu__view__more">
+        <button class="button__primary">view more</button>
+    </div>
+
     </section>
 </main>
 </body>
