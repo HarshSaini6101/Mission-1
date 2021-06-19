@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #ebf2ff;
+    background-color: #d8e4fa;
     font-family: Merriweather, serif;
     overflow-x: hidden;
 }
@@ -143,6 +143,36 @@ body{
     width: 120%;
     height: 180px;
 }
+.email__container{
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-xl{
+    width: 100%;
+    font-size: 20px;
+    color: #1d3557;   
+  line-height: 30px;
+}
+.email__input__field {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .email__input {
+    border: 1px solid #ee89a0;
+    background-color: #fcedf0;
+    color: #1d3557;
+    font-weight: 700;
+    padding: 4px;
+    border-radius: 4px;
+  }
+  .email__input::placeholder {
+    color: #bdbcbc;
+  }
+  
 
 @media (min-width:768px){
     .navbar{
@@ -205,6 +235,13 @@ body{
     }
     .restaurant__flex{
         width: 100%;
+    }
+    .email__container{
+        display: flex;
+        justify-content: center;
+    }
+    .email__input{
+        width: 250px;
     }
     }
 
